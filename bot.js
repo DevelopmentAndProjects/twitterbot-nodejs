@@ -9,7 +9,7 @@ var Twit = require('twit')
 var T = new Twit(require('./config.js'))
 
 // This is the URL of a search for the latest tweets on the #hashtag.
-var hastagSearch = { q: '#hashtag', count: 10, result_type: 'recent' }
+var hastagSearch = { q: '#ARSREN', count: 1, result_type: 'recent' }
 
 // A user stream
 var stream = T.stream('user')
